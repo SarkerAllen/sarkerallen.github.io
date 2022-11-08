@@ -1,0 +1,387 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>结算单支付-北京金木堂</title>
+    <link href="./assets/171ed7c8/plugins/bootstrap/css/bootstrap.css?v=1618042525" rel="stylesheet">
+<link href="./assets/171ed7c8/plugins/bootstrap/css/broadside-menu.css?v=1626407672" rel="stylesheet">
+<link href="./assets/171ed7c8/plugins/bootstrap/css/bootstrapValidator.min.css?v=1522827482" rel="stylesheet">
+<link href="./assets/171ed7c8/css/layout/main_cpp.css?v=1634957842" rel="stylesheet">
+<link href="./assets/171ed7c8/css/layout/colorStyle/blue/color.css?v=1618042525" rel="stylesheet">
+<link href="./assets/171ed7c8/css/styles.css?v=1660628532" rel="stylesheet">
+<link href="./assets/171ed7c8/plugins/scrollBar/perfect-scrollbar.css?v=1522827482" rel="stylesheet">
+<link href="./assets/171ed7c8/plugins/messageBox/alert_box.css?v=1607267246" rel="stylesheet">
+<link href="./assets/171ed7c8/plugins/tipBox/tipBox.css?v=1531872274" rel="stylesheet">
+<link href="./assets/171ed7c8/plugins/tipBox/hoverInfo.css?v=1549016251" rel="stylesheet">
+<link href="./assets/171ed7c8/plugins/bootstrap-tour/css/bootstrap-tour.css?v=1543855087" rel="stylesheet">
+<link href="./assets/171ed7c8/css/qrcode-pay-new.css?v=1628501658" rel="stylesheet">
+<script src="./assets/171ed7c8/js/jquery.js?v=1588820962"></script>
+<script src="./assets/171ed7c8/plugins/bootstrap/js/bootstrap.js?v=1574757278"></script>
+<script src="./assets/171ed7c8/js/jquery.cookie.js?v=1522827482"></script>
+<script src="./assets/171ed7c8/plugins/scrollBar/jquery.mousewheel.js?v=1522827482"></script>
+<script src="./assets/171ed7c8/plugins/scrollBar/perfect-scrollbar.js?v=1522827482"></script>
+<script src="./assets/171ed7c8/js/layout/yyspt.js?v=1663122829"></script>
+<script src="./assets/171ed7c8/js/AjaxFilter.js?v=1659755058"></script>
+<script src="./assets/171ed7c8/js/main.js?v=1663122829"></script>
+<script src="./assets/171ed7c8/js/utility.js?v=1663732037"></script>
+<script src="./assets/171ed7c8/plugins/messageBox/alert_box.js?v=1649146498"></script>
+<script src="./assets/171ed7c8/plugins/tipBox/hoverInfo.js?v=1629211089"></script>
+<script src="./assets/171ed7c8/plugins/layer/layer.js?v=1626405611"></script>
+<script src="./assets/171ed7c8/plugins/tipBox/tipBox.js?v=1626405611"></script>
+<script src="./assets/171ed7c8/plugins/bootstrap-tour/js/bootstrap-tour.js?v=1528501750"></script></head>
+<style>
+    
+</style>
+<body id="bodyHead" style="position: relative;">
+    <!--付款信息-->
+    <div class="div div-pay-box">
+            <div class="pay-info">请通过微信或支付宝扫码完成支付</div>
+            <div class="div text-center">
+                                                        </div>
+        <div class="div text-center">
+            <div class="pay-info">来自 “月坛中心店” 的订单</div>
+        </div>
+    </div>
+    <div class="div div-info">
+        <ul>
+            <li><span class="title">客户名称：</span><span class="content">工行南礼士路支行</span></li>
+            <!--<li><span class="title">结算单编号：</span><span class="content"></span></li>-->
+            <li><span class="title">订单编号：</span><span class="content">YT220929021</span></li>
+            <li><span class="title">应付金额：</span><span class="content">￥4879.00</span></li>
+            <li><span class="title">已付金额：</span><span class="content">￥0.00</span></li>
+            <li><span class="title">未付金额：</span><span class="content">￥4879.00</span></li>
+            <li><span class="title">结算时间：</span><span class="content">2022-10-10 19:14</span></li>
+            <li><span class="title">签单/支付：</span><span class="content">已签单 / 未付</span></li>
+            <li><span class="title">订单状态：</span><span class="content">结算待核销</span></li>
+                            <li><span class="title">收款单位: </span><span class="content">北京金木堂</span></li>
+                    </ul>
+    </div>
+
+    <div class="div order-info">
+        <div class="order-list" style="display: none;">
+                        <div class="order-item">
+                                <span style="width:100%;display:inline-block">
+                <p>
+                    <span class="left"><strong>类别：</strong>图纸处理</span>
+                    <span class="right">x 162</span>
+                </p>
+                <p>
+                    <span class="left"><strong>名称：</strong>彩色扫描 A4</span>
+                    <span class="right price">￥324.00</span>
+                </p>
+              
+                <p><span class="left"><strong>备注：</strong></span></p>
+        
+                </span>
+            </div>
+                        <div class="order-item">
+                                <span style="width:100%;display:inline-block">
+                <p>
+                    <span class="left"><strong>类别：</strong>装订类</span>
+                    <span class="right">x 24</span>
+                </p>
+                <p>
+                    <span class="left"><strong>名称：</strong>无线胶装 彩色封面胶装 A4</span>
+                    <span class="right price">￥360.00</span>
+                </p>
+              
+                <p><span class="left"><strong>备注：</strong></span></p>
+        
+                </span>
+            </div>
+                        <div class="order-item">
+                                <span style="width:100%;display:inline-block">
+                <p>
+                    <span class="left"><strong>类别：</strong>装订类</span>
+                    <span class="right">x 1</span>
+                </p>
+                <p>
+                    <span class="left"><strong>名称：</strong>U盘全套</span>
+                    <span class="right price">￥100.00</span>
+                </p>
+              
+                <p><span class="left"><strong>备注：</strong></span></p>
+        
+                </span>
+            </div>
+                        <div class="order-item">
+                                <span style="width:100%;display:inline-block">
+                <p>
+                    <span class="left"><strong>类别：</strong>装订类</span>
+                    <span class="right">x 3</span>
+                </p>
+                <p>
+                    <span class="left"><strong>名称：</strong>袋子 加背脊</span>
+                    <span class="right price">￥240.00</span>
+                </p>
+              
+                <p><span class="left"><strong>备注：</strong></span></p>
+        
+                </span>
+            </div>
+                        <div class="order-item">
+                                <span style="width:100%;display:inline-block">
+                <p>
+                    <span class="left"><strong>类别：</strong>装订类</span>
+                    <span class="right">x 1</span>
+                </p>
+                <p>
+                    <span class="left"><strong>名称：</strong>盒子</span>
+                    <span class="right price">￥380.00</span>
+                </p>
+              
+                <p><span class="left"><strong>备注：</strong></span></p>
+        
+                </span>
+            </div>
+                        <div class="order-item">
+                                <span style="width:100%;display:inline-block">
+                <p>
+                    <span class="left"><strong>类别：</strong>装订类</span>
+                    <span class="right">x 2</span>
+                </p>
+                <p>
+                    <span class="left"><strong>名称：</strong>排版</span>
+                    <span class="right price">￥160.00</span>
+                </p>
+              
+                <p><span class="left"><strong>备注：</strong></span></p>
+        
+                </span>
+            </div>
+                        <div class="order-item">
+                                <span style="width:100%;display:inline-block">
+                <p>
+                    <span class="left"><strong>类别：</strong>数码印刷-Z</span>
+                    <span class="right">x 1825</span>
+                </p>
+                <p>
+                    <span class="left"><strong>名称：</strong>彩色数码印刷 A4 彩机纸 120g</span>
+                    <span class="right price">￥3285.00</span>
+                </p>
+              
+                <p><span class="left"><strong>备注：</strong></span></p>
+        
+                </span>
+            </div>
+                        <div class="order-item">
+                                <span style="width:100%;display:inline-block">
+                <p>
+                    <span class="left"><strong>类别：</strong>装订类</span>
+                    <span class="right">x 6</span>
+                </p>
+                <p>
+                    <span class="left"><strong>名称：</strong>封条</span>
+                    <span class="right price">￥30.00</span>
+                </p>
+              
+                <p><span class="left"><strong>备注：</strong></span></p>
+        
+                </span>
+            </div>
+                    </div>
+        <div class="text-center"><button class="btn button-check" style="width:100px;">查看明细</button></div>
+    </div>
+
+    <div class="qr-code qr-code-window">
+        <div class="qr-code-div"></div>
+        <div class="qr-code-img">
+            <div></div>
+            <p class="qr-code-message">请长按二维码，完成支付后请务必返回到该页面确认支付状态！</p>
+        </div>
+    </div>
+
+    <form id="call_pay_form" method="post" action="">
+        <input type="hidden" name="payment_method" id="payment_method" value="">
+        <input type="hidden" name="jsApiParameters" id="jsApiParameters" value="">
+        <input type="hidden" name="trade_no" id="trade_no" value="">
+        <input type="hidden" name="make_sure_url" id="make_sure_url" value="">
+        <input type="hidden" name="title" id="title" value="结算单支付-北京金木堂">
+    </form>
+    <!--签单弹窗-->
+    <div class="signShow" style="position:fixed;top:0;left:0;width:100%;height:100%;background-color:white;display: none;"></div>
+    <div class="signShow" style="position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,0.3);display: none;"></div>
+    <div id="canvas-model" class="signShow text-center" style="position:fixed;width:98%;height:300px;left:1%;top:20%;z-index:999;background-color:white;overflow:hidden;display: none;" @touchmove.prevent>
+        <div class="canvas-btn">
+            <button onclick="cancelCanvas()" id="clearCanvas">取消</button>
+            <button onclick='saveCanvas()' id="saveCanvas">保存</button>
+        </div>
+        <canvas id='canvas' style='background-color:#EFEFEF;'></canvas>
+        <p style="font-size:0.9rem;position:absolute;z-index:1000;bottom:60px;right:2%;color:#8a8a8a;background-color:#efefef;padding:5px;" onclick='draw.clear()'>
+            <img src="/assets/171ed7c8/images/clear.png?v=1627352973" alt="" style="width:16px;height:16px;">清除
+        </p>
+        <div class="canvas-title">
+            <p style="font-size:1.2rem;line-height:34px;">请在下方签名区签名</p>
+        </div>
+    </div>
+
+</body>
+</html>
+<script>
+    var url       = {"settlementSign":"http:\/\/jmtang.yunxiyin.cn\/qrcode-pay\/settlement-sign?token=1318171664450063131&tenant_id=122","settlementNetPay":"http:\/\/jmtang.yunxiyin.cn\/qrcode-pay\/settlement-net-pay?token=1318171664450063131&tenant_id=122"};
+    var dom       = $('.div-pay');
+    var tenant_id = '122';
+    var store_id  = '3354';
+    var settlement_hash  = '1318171664450063131';
+    var out_trade_no = ""; // 商户订单号
+    var pay_time  = 0;// 支付超时时间
+    var _jsApiParameters;
+    /**禁用顶部下拉**/
+    function unableScroll() {
+        document.body.addEventListener('touchmove', function (e) {
+            e.preventDefault(); //阻止默认的处理方式(阻止下拉滑动的效果)
+        }, {passive: false});
+    }
+    /**启用顶部下拉**/
+    function enableScroll() {
+        window.location.reload();
+    }
+    // 发起支付
+    $('.button-pay').on('click', function () {
+        var payment_method = '';
+        if (!payment_method) {
+            alert('请选择支付方式');
+            return false;
+        }
+        var data = {"tenant_id":"122","store_id":"3354","settlement_hash":"1318171664450063131","price":"4879.00","auto_verify":null,"payment_method":"","make_sure_url":"http:\/\/jmtang.yunxiyin.cn\/qrcode-pay\/settlement-qrcode-pay?token=1318171664450063131&tenant_id=122","message":"\u8bf7\u901a\u8fc7\u5fae\u4fe1\u6216\u652f\u4ed8\u5b9d\u626b\u7801\u5b8c\u6210\u652f\u4ed8"};
+
+        $('#call-pay-button').prop('disabled',true);
+        $.post(url.settlementNetPay, data, function(res){
+            $('#call-pay-button').prop('disabled',false);
+            if (res.success) {
+                //填充公共信息
+                $('#call_pay_form').attr('action',res.callPayGateway);
+                $('#make_sure_url').val(res.makeSureUrl);
+                $('#payment_method').val(payment_method);
+                //填充不同信息
+                if (payment_method == 'WX') {             //微信支付
+                    $('#jsApiParameters').val(res.jsApiParameters);
+                }
+                if (payment_method == 'ZFB') {            //支付宝支付
+                    $('#trade_no').val(res.trade_no);
+                }
+                //提交表单
+                document.getElementById("call_pay_form").submit();
+            }else if(res.message == '参数错误') {
+                $.messageBox.alert('提示', 'warning', '支付失败，请重新扫码后进行支付。');
+            }else{
+                $.messageBox.alert('提示', 'warning', res.message);
+            }
+        },'json');
+    });
+    $('.button-sign').on('click',function(){
+        unableScroll();
+        $('.signShow').show();
+    });
+    $('.button-check').on('click',function(){
+        var text  = $(this).text();
+        if (text == '查看明细') {
+            $('.order-info .order-list').show();
+            $(this).text('收起')
+        } else {
+            $('.order-info .order-list').hide();
+            $(this).text('查看明细')
+        }
+    });
+    var draw;
+    var preHandler = function(e) { e.preventDefault() };
+    class Draw {
+        constructor(el) {
+            this.el = el;
+            this.canvas = document.getElementById(this.el);
+            this.cxt = this.canvas.getContext('2d');
+            this.stage_info = canvas.getBoundingClientRect();
+            this.canvas.width = document.body.clientWidth * 0.96;
+            this.canvas.height = 200;
+            this.deviateX = 20; // x偏移量
+            this.deviateY = 180; // y偏移量
+            this.path = {
+                beginX: 0,
+                beginY: 0,
+                endX: 0,
+                endY: 0
+            }
+        }
+        init(btn) {
+            var that = this;
+            this.canvas.addEventListener('touchstart', function(event) {
+                document.addEventListener('touchstart', preHandler, false);
+                that.drawBegin(event)
+            });
+            this.canvas.addEventListener('touchend', function(event) {
+                document.addEventListener('touchend', preHandler, false);
+                that.drawEnd()
+            });
+            this.clear(btn)
+        }
+        drawBegin(e) {
+            var that = this;
+            window.getSelection() ? window.getSelection().removeAllRanges() : document.selection.empty();
+            this.cxt.strokeStyle = '#000';
+            this.cxt.lineWidth = 3; // 线条宽度(粗细)
+            this.cxt.beginPath();
+            this.cxt.moveTo(
+                e.changedTouches[0].clientX - this.stage_info.left - this.deviateX,
+                e.changedTouches[0].clientY - this.stage_info.top - this.deviateY
+            );
+            this.path.beginX = e.changedTouches[0].clientX - this.stage_info.left - this.deviateX;
+            this.path.beginY = e.changedTouches[0].clientY - this.stage_info.top - this.deviateY;
+            canvas.addEventListener('touchmove', function() {
+                that.drawing(event)
+            })
+        }
+        drawing(e) {
+            this.cxt.lineTo(
+                e.changedTouches[0].clientX - this.stage_info.left - this.deviateX,
+                e.changedTouches[0].clientY - this.stage_info.top - this.deviateY
+            );
+            this.path.endX = e.changedTouches[0].clientX - this.stage_info.left - this.deviateX;
+            this.path.endY = e.changedTouches[0].clientY - this.stage_info.top - this.deviateY;
+            this.cxt.stroke()
+        }
+        drawEnd() {
+            document.removeEventListener('touchstart', preHandler, false);
+            document.removeEventListener('touchend', preHandler, false);
+            document.removeEventListener('touchmove', preHandler, false);
+        }
+        clear(btn) {
+            this.cxt.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        }
+        save() {
+            return canvas.toDataURL('image/png');
+        }
+    }
+    function cancelCanvas() {
+        $('.signShow').hide();
+        draw.clear();
+        enableScroll();
+    }
+    function saveCanvas() {
+        $('#sign-button').prop('disabled',true);
+        var sign_data = draw.save();
+        var data = {
+            tenant_id: tenant_id,
+            store_id: store_id,
+            settlement_hash: settlement_hash,
+            sign_data: sign_data
+        };
+        $.post(url.settlementSign,data,function(res){
+            $('#sign-button').prop('disabled',false);
+            if (res.success) {
+                alert(res.message);
+                $('.signShow').hide();
+                window.location.reload();
+            }else if(res.message == '参数错误') {
+                $.messageBox.alert('提示', 'warning', '签单失败，请刷新后重新签单。');
+            }else{
+                $.messageBox.alert("提示!",'success', res.message);
+            }
+        },'json');
+    }
+    draw = new Draw('canvas');
+    draw.init();
+</script>
