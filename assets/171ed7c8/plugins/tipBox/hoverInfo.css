@@ -1,0 +1,21 @@
+#hover-info{
+    margin-top:-8%; max-width: 410px; padding:10px; box-sizing: border-box;
+    border: 1px solid #cecbce; -webkit-box-shadow:1px 1px 3px 0 rgba(0,0,0,.32); -moz-box-shadow:1px 1px 3px 0 rgba(0,0,0,.32);
+    position: absolute; color: #333; z-index: 9999;
+    border-color: transparent;
+    border-color: #cacaca;
+    background-color: #fbfbfb;
+    box-shadow: 1px 1px 3px 0 rgba(0,0,0,.32); z-index: 19999; display: none}
+#hover-info .info-msg{font-size: 12px;text-align: left;}
+#hover-info .icon-triangle{position: absolute; width: 8px; height: 10px; background: url(icon-tips.png) -30px -12px no-repeat;}
+.hover-info{
+    width: 20px;
+    height: 20px;
+    background-image: url(icon-tips.png);
+    background-repeat: no-repeat;
+    background-position: -5px -6px;
+    float: left;
+    cursor: pointer;
+    position: relative;
+}
+[hover_info]{position: relative;}

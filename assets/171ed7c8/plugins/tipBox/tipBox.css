@@ -1,0 +1,82 @@
+#tip-box-mask{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#tip-box{
+    /*height: 48px;*/
+    background-color: #fff;
+    font-family: "Microsoft Yahei", '宋体', sans-serif;
+    position: fixed;
+    top: -100px;
+    left: 50%;
+    margin: auto;
+    /*margin-left: -90px;*/
+    z-index: 9999;
+    overflow: hidden;
+    background-color: #f7f7f7;
+    border: 1px solid #c6c6c6;
+    /*box-shadow: 0px 0px 8px #ddd;*/
+   opacity: 0;
+}
+/*关闭模态框*/
+#tip-box .close-box{
+	width: 20px;
+	height: 20px;
+	background-image: url(icon-tips.png);
+	background-repeat: no-repeat;
+	background-position: -46px -5px;
+	position: absolute;
+	right: 4px;
+	top: 0;
+	cursor: pointer;
+}
+#tip-box .tip-content{
+	max-width: 316px;
+	margin: 10px 26px 10px 10px;
+}
+#tip-box .tip-content:after{
+	content:".";display:block;height:0;clear:both;visibility:hidden;
+}
+#tip-box div[name="tip-img"]{
+	width: 28px;
+	height: 28px;
+	float: left;
+	/*position: absolute;
+	left: 15px;
+	top: 10px;*/
+	background-image: url(icon-tips.png);
+	background-repeat: no-repeat;
+}
+/*警告提示*/
+#tip-box .warning{
+	background-position:-4px -71px ;
+}
+/*正确提示*/
+#tip-box .success{
+	background-position:-4px -35px ;
+}
+/*错误提示*/
+#tip-box .error{
+	background-position:-44px -71px ;
+}
+/*一般提示*/
+#tip-box .info{
+	background-position:-44px -35px ;
+}
+#tip-box .msg{
+	float: left;
+	/*position: absolute;
+	left: 56px;*/
+	/*height: 24px;*/
+	/*line-height: 24px; */
+	top: 12px;
+	color: #333333;
+	font-size: 14px;
+	/*max-width: 145px;*/
+	text-align: center;
+	overflow: hidden;
+	padding-left: 8px;
+}

@@ -1,0 +1,178 @@
+#dialog_box{
+    width: 350px;
+    height: 200px;
+    background-color: #fff;
+    margin: 100px auto;
+    font-family: "Microsoft Yahei", '宋体', sans-serif;
+    position: fixed;
+    z-index: 9999;
+    overflow: hidden;
+    border-radius: 6px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+#dialog_box .title{
+    height: 40px;
+    width:100%;
+}
+#dialog_box .title .title_info{
+    float: left;
+}
+#dialog_box .title .title_info p{
+    color: #fff;
+    padding-left: 20px;
+    line-height: 40px;
+}
+#dialog_box .title .close_dialog{
+    height:40px;
+    float: right;
+    padding-right: 10px;
+    width: 40px;
+}
+#dialog_box .title .close_dialog b{
+    display: block;
+    width: 12px;
+    height: 12px;
+    /*background-image: url(icons.png); */
+    background-repeat: no-repeat;
+    background-position: -48px -96px;
+    margin: 14px;
+    cursor: pointer;
+}
+#dialog_box .dialog_main{
+    height: 90px;
+    margin-top: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+#dialog_box .dialog_main .error{   /*错误的消息*/
+    height: 40px;
+    width: 40px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+    background-position: -49px -47px;
+    float: left;
+    margin-left: 30px;
+}
+#dialog_box .dialog_main .success{   /*正确的消息*/
+    height: 40px;
+    width: 40px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+    background-position: -6px -47px;
+    float: left;
+    margin-left: 30px;
+}
+#dialog_box .dialog_main .unknown{   /*未知错误提示*/
+    height: 40px;
+    width: 40px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+    background-position: -49px -88px;
+    float: left;
+    margin-left: 30px;
+}
+#dialog_box .dialog_main .warning{   /*警告错误提示*/
+    height: 40px;
+    width: 40px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+    background-position: -6px -87px;
+    float: left;
+    margin-left: 30px;
+}
+#dialog_box .dialog_main .information{   /*成功提示*/
+    height: 40px;
+    width: 40px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+    background-position: -6px -2px;
+    float: left;
+    margin-left: 30px;
+}
+#dialog_box .dialog_main .confirm{ /*确认提示*/
+	height: 40px;
+    width: 40px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+    background-position: -48px -2px;
+    float: left;
+    margin-left: 30px;
+}
+#dialog_box .dialog_main .msg{
+    float: left;
+    height: auto;
+    padding:0 0 0 15px;
+    width: 220px;
+    height: 85px;
+    overflow: hidden;
+}
+
+#dialog_box .ask{
+    height: 42px;
+    /* width: 300px; */
+    /* clear: both; */
+    padding-top: 5px;
+    margin:0 auto;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+#dialog_box .ask .ask_defeated_btn{
+    height: 33px;
+    border:1px solid #f27669;
+    background-color: #f27669;
+    font-family: "Microsoft Yahei", '宋体', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 77px;
+}
+#dialog_box .ask  .ask_defeated_btn:focus{
+    outline: none;
+}
+#dialog_box .dlg-info{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#dialog_box .ask  .ask_true_btn{
+    width: 77px;
+    height: 33px;
+    font-family: "Microsoft Yahei", '宋体', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+#dialog_box .ask .ask_true_btn:focus{
+    outline: none;
+}
+#dialog_box .ask .ask_true{
+    padding: 0 16px;
+    float: left;
+}
+#top-mask-div{
+    position: absolute;
+    background: #000;
+    opacity: 0.6;
+    left: 0;
+    top: 0;
+    z-index: 1060;
+    filter: alpha(opacity=60);
+}
+#load{
+    position: absolute;
+    background: #000;
+    opacity: 0.6;
+    left: 0;
+    top: 0;
+    z-index: 1060;
+    filter: alpha(opacity=60);
+}

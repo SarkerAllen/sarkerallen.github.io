@@ -1,0 +1,116 @@
+.view .menu {
+	font-size: 12px;
+	text-align: center;
+	margin-left: 15px;
+}
+.view .menu .menuMain{
+	display: block;
+	float: left;
+	height: 75px;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+.view .menu .menuMain:hover{
+	background: #FED5D7;
+}
+.view .menu .menuMain .accordions{
+	width: 75px;
+	height: 75px;
+	/*border-radius: 50%;*/
+	margin: 0 5px;
+	/*background: -webkit-linear-gradient(135deg, #be242c, #f5030f);*/
+	/* background: linear-gradient(-45deg, #143501, #4bf704);  */
+	/*background: linear-gradient(-45deg, #f00, #fe0);*/
+}
+.view .menu .menuMain .menu_link{
+	color: #ffffff;
+}
+.view .menu .menuMain .item-title{
+	margin-top: -8px;
+}
+
+.view .menu .menuStair{
+	display: block;
+	float: left;
+	height: 70px;
+	min-width: 70px;
+	padding: 0 4px;
+	border-right: 1px solid #CCCCCC;
+}
+.view .menu .menuStair .menu-pname{
+	display: block;
+	color: #ababab;
+	width: 80%;
+	text-align: center;
+	height: 14px;
+	cursor: default;
+	border-bottom: 1px solid #ccc;
+    line-height: 10px;
+    margin: 0 15px;
+}
+.view .menu .menuStair .menu-item{
+	width: 78px;
+	height: 60px;
+	float: left;
+}
+.view .menu .menuStair .menu-item .item-title{
+	margin-top: -8px;
+}
+.view .menu .borderLeft{
+	border-left: 1px solid #CCCCCC;
+}
+.view .menu .menuStair .menu-item:hover{
+	background: #FED5D7!important;
+}
+.view .menu .menuStair .menuChild-box {
+	display: block;
+	float: left;
+	width: 112px;
+	height: 60px;
+	padding: 5px 0;
+	position: relative;
+}
+.view .menu .menuStair .menuChild-box .icon-more{
+	position: absolute;
+	display: block;
+	height: 12px;
+	width: 12px;
+	top: 49px;
+	left: 50px;
+}
+.view .menu .menuStair .menuChild{
+	width: 112px;
+	height: 50px;
+	overflow: hidden;
+}
+.view .menu .menuStair .menuChild-on{
+	position: absolute;
+	top: 1px;
+	left: 0;
+	width: 112px;
+	height: 130px;
+	padding-top: 4px;
+	background: #ffffff;
+	z-index: 9999999;
+	box-shadow: darkgrey 0 0 10px 1px;
+}
+.view .menu .menuStair .menuChild .child-item {
+	width: 112px;
+	height: 25px;
+	line-height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.view .menu .menuStair .menuChild .child-item:hover{
+	background: #FED5D7;
+}
+.view .menu .menuStair .menuChild .child-item  span{
+	display: block;
+	width: 82px;
+	height: 25px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	text-align: left;
+}
