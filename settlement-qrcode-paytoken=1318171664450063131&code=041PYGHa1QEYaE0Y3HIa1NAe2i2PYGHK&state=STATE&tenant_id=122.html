@@ -39,13 +39,16 @@
 <body id="bodyHead" style="position: relative;">
     <!--付款信息-->
     <div class="div div-pay-box">
-            <div class="pay-info">请通过微信或支付宝扫码完成支付</div>
-            <div class="div text-center">
-                                                        </div>
+        <div class="pay-info">请通过微信或支付宝扫码完成支付</div>
         <div class="div text-center">
-            <div class="pay-info">来自 “月坛中心店” 的订单</div>
-        </div>
+                        <!-- 由于直接扫码签单无法验证客户，去掉签单功能 -->
+            <!-- <button class="btn btn-md btn-default button-sign" style="border-radius: 0px;margin-right: 15px">签单</button> -->
+            <button  class="btn button-sign" id="sign-button" style="width:80px;">签单</button>
+                                                    </div>
+    <div class="div text-center">
+        <div class="pay-info">来自 “月坛中心店” 的订单</div>
     </div>
+</div>
     <div class="div div-info">
         <ul>
             <li><span class="title">客户名称：</span><span class="content">工行南礼士路支行</span></li>
@@ -212,7 +215,7 @@
         </div>
         <canvas id='canvas' style='background-color:#EFEFEF;'></canvas>
         <p style="font-size:0.9rem;position:absolute;z-index:1000;bottom:60px;right:2%;color:#8a8a8a;background-color:#efefef;padding:5px;" onclick='draw.clear()'>
-            <img src="/assets/171ed7c8/images/clear.png?v=1627352973" alt="" style="width:16px;height:16px;">清除
+            <img src="./assets/171ed7c8/images/clear.png?v=1627352973" alt="" style="width:16px;height:16px;">清除
         </p>
         <div class="canvas-title">
             <p style="font-size:1.2rem;line-height:34px;">请在下方签名区签名</p>
